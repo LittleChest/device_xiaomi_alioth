@@ -21,10 +21,6 @@ PRODUCT_COPY_FILES += \
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Camera
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/camera/camera_cnf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_cnf.txt
-
 PRODUCT_PACKAGES += \
     libpiex_shim
 
